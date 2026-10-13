@@ -1,0 +1,67 @@
+/*
+
+regular 400
+mediun 500
+semiBold 600
+bold 700
+
+transparencia del color 
+
+100% = FF
+
+90% = E6
+
+80% = CC
+
+70% = B3
+
+60% = 99
+
+50% = 80
+
+40% = 66
+
+30% = 4D
+
+20% = 33
+
+10% = 1A
+
+0% = 00
+*/
+
+
+:root{
+    /*
+    Colores de la pagina
+
+    
+    */
+    --bg-header: #0C0E12CC;
+    --cl-primary: #BBCAC1;
+    --cl-logo:#E2E2E8;
+    --cl-available:#282A2E99;
+    --bd-header:#3C4A434D;
+    --bg-body:#111318;
+    --cl-text-or-btn:#42E5B0FF;
+    --cl-second-btn:#282A2E;
+    --cl-profession:#282A2ECC;
+    --cl-BF:#42E5B01A;
+
+
+
+
+
+    /* Tamano de letras  */
+    --fond-bold: 700;
+    --fond-semiBold: 600;
+    --fond-medium:500;
+    --fond-regular:400;
+    /*
+    fuentes 
+    */
+
+    --fd-PJS:"Plus Jakarta Sans";
+    --fd-Gt: "Geist";
+
+}

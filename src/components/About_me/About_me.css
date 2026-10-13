@@ -1,0 +1,123 @@
+.content-info-about-me{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+.content-info-primary{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.visual-info{
+    flex:1;
+}
+
+
+/*
+
+Creacion de los falsos backgrounds
+
+*/
+
+.background-false{
+    background-color: var(--cl-BF);
+    width: 64.27%;
+    height: 22.5rem;
+    position: absolute;
+    left: 20%;
+    border-radius: 9999px;
+    z-index: -90;
+    border: none;
+    filter: blur(110px);
+
+}
+
+/*
+ ajuste de mostrador de porfesion
+*/
+
+.content-profession{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    background-color: var(--cl-profession);
+    align-items: center;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 6px 14px;
+    
+}
+.info-profession{
+    
+    font-weight: var(--fond-semiBold);
+    font-size: 13px;
+}
+.info-profession:nth-child(1){
+    color: var(--cl-logo);
+}
+.info-profession:nth-child(2), .info-profession:nth-child(3) {
+    font-weight: var(--fond-medium);
+}
+
+
+/*
+  info sobre mi 
+*/
+
+.title{
+    font-family: var(--fd-PJS),sans-serif;
+    font-weight: var(--fond-bold);
+    font-size: 60px;
+
+}
+.content-text-info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-text-info p {
+    font-size: 18px;
+    font-weight: var(--fond-regular);
+}
+
+
+
+
+/*
+Botones iniciales de informacion
+*/
+.content-btns{
+    display: flex;
+    gap: 16px;
+}
+.btn-info{
+    background-color: var(--cl-text-or-btn);
+    color: black;
+    padding: 14px 24px;
+    border: none ;
+    border-radius:10px ;
+    display: flex;
+    gap: 10px;
+    font-family: var(--fd-PJS),sans-serif;
+    font-weight: var(--fond-semiBold);
+    font-size: 16px;
+    
+}
+.btn-info span{
+    display: flex;
+    align-items: center;
+}
+
+.btn-info:nth-child(2){
+    background-color: var(--cl-second-btn);
+    color: var(--cl-logo);
+    font-weight: var(--fond-medium);
+}
+
+

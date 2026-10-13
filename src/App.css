@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--cl-primary);
+    font-family: "Geist";
+}
+header{
+    
+    font-family: var(--fd-Gt);
+    font-weight: var(--fond-semiBold);
+    font-size: 16px;
+}
+main{
+   
+    max-width: 100%;
+    padding: 0px 68px;
+}
+body{
+    background-color: #0C0E12;
+}
+section{
+    padding: 64px 0px;
+}
